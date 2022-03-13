@@ -10,7 +10,7 @@
   max-width: 960px;
   width: calc(100% - 90px);
   height: 100vh;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 
@@ -34,7 +34,6 @@ a {
 i {
   color: #888888;
   position: relative;
-  cursor: pointer;
 }
 
 label {
@@ -58,7 +57,7 @@ button {
   width: 235px;
   height: 32px;
   background-color: #436CFF;
-  color: #fff;
+  color: #ffffff;
   font-size: .8em;
   border: none;
   border-radius: 3px;
@@ -96,7 +95,8 @@ button {
   flex-direction: column;
   position: relative;
   width: 235px;
-  vertical-align: middle;
+  margin: 1.5em 0 0 0;
+  /* vertical-align: middle; */
 }
 
 .input-container input:focus-visible {
