@@ -38,6 +38,7 @@ i {
 
 label {
   color: #888888;
+  font-size: .8em;
   /* margin-top: 20px; */
 }
 
@@ -78,16 +79,17 @@ button {
 }
 
 .check input {
-  vertical-align: middle;
   width: 20px;
   height: 20px;
-  margin: 0 5px 0 0;
   border: 1px solid #888888;
   border-radius: 5px;
+  vertical-align: middle;
+  margin: auto;
 }
 
 .check label {
-  font-size: .8em;
+  font-size: .7em;
+  margin-left: .8em;
 }
 
 .input-container {
